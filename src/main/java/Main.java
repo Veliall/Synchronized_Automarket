@@ -15,5 +15,6 @@ public class Main {
         new Thread(null, autoMarket::sellCar, "Никита").start();
         new Thread(null, autoMarket::sellCar, "Марина").start();
         new Thread(null, autoMarket::acceptCar, "Mercedes").start();
+        new Thread(null, autoMarket::acceptCar, "Toyota").start();
     }
 }
