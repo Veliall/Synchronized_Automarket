@@ -14,7 +14,6 @@ public class Main {
         new Thread(null, autoMarket::sellCar, "Егор").start();
         new Thread(null, autoMarket::sellCar, "Никита").start();
         new Thread(null, autoMarket::sellCar, "Марина").start();
-        new Thread(null, autoMarket::acceptCar, "Производитель Mercedes").start();
-        new Thread(null, autoMarket::acceptCar, "Производитель Toyota").start();
+        new Thread(null, autoMarket::acceptCar, "Mercedes").start();
     }
 }
